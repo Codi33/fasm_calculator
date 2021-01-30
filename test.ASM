@@ -3,7 +3,7 @@ format PE console
 entry Start
 
 include 'INCLUDE/win32a.inc'
-
+F
 section '.data' data readable writable
 
         strA db 'Enter A: ', 0
